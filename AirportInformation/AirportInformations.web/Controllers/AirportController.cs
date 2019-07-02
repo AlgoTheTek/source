@@ -17,7 +17,7 @@ namespace AirportInformations.Controllers
     {        
         private readonly ILogger<AirportController> _logger;
 
-        //[ResponseCache(VaryByHeader = "from-feed", Duration = 300)]
+        [ResponseCache(VaryByHeader = "from-feed", Duration = 300)]
         public IActionResult Index()
         {
             initData();

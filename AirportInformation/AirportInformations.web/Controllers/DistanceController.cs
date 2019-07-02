@@ -13,6 +13,16 @@ namespace AirportInformations.web.Controllers
     using System;
     public class DistanceController : Controller
     {
+        private IAirportRepository _airportRepository { get; set; }
+
+        [HttpGet]
+        [ResponseCache(VaryByHeader = "from-feed", Duration = 300)]
+        public ActionResult Distance()
+        {
+            //initData();
+            IEnumerable<Airport> airports = _airportRepository.GetAirports();
+            return View(airports);
+        }
 
     }
     

@@ -30,17 +30,3 @@ C:\Users\Roland\source\repos\AirportInformation\AirportInformations.ConcretServi
 C:\Users\Roland\source\repos\AirportInformation\AirportInformations.ConcretService\obj\Debug\netstandard2.0\AirportInformations.ConcretService.csproj.CopyComplete
 C:\Users\Roland\source\repos\AirportInformation\AirportInformations.ConcretService\obj\Debug\netstandard2.0\AirportInformations.ConcretService.dll
 C:\Users\Roland\source\repos\AirportInformation\AirportInformations.ConcretService\obj\Debug\netstandard2.0\AirportInformations.ConcretService.pdb
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\bin\Debug\netstandard2.0\AirportInformations.ConcretService.deps.json
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\bin\Debug\netstandard2.0\AirportInformations.ConcretService.dll
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\bin\Debug\netstandard2.0\AirportInformations.ConcretService.pdb
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\bin\Debug\netstandard2.0\AirportInformations.Common.dll
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\bin\Debug\netstandard2.0\AirportInformations.Repository.dll
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\bin\Debug\netstandard2.0\AirportInformations.Common.pdb
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\bin\Debug\netstandard2.0\AirportInformations.Repository.pdb
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\obj\Debug\netstandard2.0\AirportInformations.ConcretService.csprojAssemblyReference.cache
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\obj\Debug\netstandard2.0\AirportInformations.ConcretService.csproj.CoreCompileInputs.cache
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\obj\Debug\netstandard2.0\AirportInformations.ConcretService.AssemblyInfoInputs.cache
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\obj\Debug\netstandard2.0\AirportInformations.ConcretService.AssemblyInfo.cs
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\obj\Debug\netstandard2.0\AirportInformations.ConcretService.csproj.CopyComplete
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\obj\Debug\netstandard2.0\AirportInformations.ConcretService.dll
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.ConcretService\obj\Debug\netstandard2.0\AirportInformations.ConcretService.pdb

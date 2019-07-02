@@ -6,12 +6,3 @@ C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\obj\Debug\ne
 C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Common.AssemblyInfo.cs
 C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Common.dll
 C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Common.pdb
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.Commun\bin\Debug\netstandard2.0\AirportInformations.Common.deps.json
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.Commun\bin\Debug\netstandard2.0\AirportInformations.Common.dll
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.Commun\bin\Debug\netstandard2.0\AirportInformations.Common.pdb
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Common.csprojAssemblyReference.cache
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Common.csproj.CoreCompileInputs.cache
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Common.AssemblyInfoInputs.cache
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Common.AssemblyInfo.cs
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Common.dll
-C:\Users\Roland\Documents\GitHub\source\AirportInformation\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Common.pdb
