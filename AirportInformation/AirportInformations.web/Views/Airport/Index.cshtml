@@ -1,0 +1,97 @@
+﻿
+@model IEnumerable<AirportInformations.Repository.Models.Airport>
+@using PagedList
+@using PagedList.Mvc
+
+@{
+    ViewData["Title"] = "European Airport List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    var countries = Model
+        .Select(p => p.country)
+        .Distinct().OrderBy(p => p);
+}
+
+
+<!DOCTYPE html>
+<h2>European Airport List</h2>
+
+@section styles{
+    <link rel="stylesheet" runat="server" media="screen" href="~/css/TableStyleAirport.css" />
+}
+
+@section scripts{  
+    <script runat="server" type="text/javascript" src="~/js/list.js"></script>
+}
+
+<div>
+    <select class="selectcountry">
+        @foreach (var item in countries)
+        {
+            <option>
+                @item.ToString()
+            </option>
+        }
+    </select>
+</div>
+<br />
+<div>
+    <table class="tbairport" runat="server" border="1" id="airtport">
+        <thead>
+            <tr>
+                <th>
+                    Airport
+                </th>
+                <th class="country">
+                    Country
+                </th>
+                <th>
+                    IATA
+                </th>
+                <th>
+                    ISO
+                </th>
+                <th>
+                    Longitude
+                </th>
+                <th>
+                    Latitude
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td class="country">
+                    @Html.DisplayFor(modelItem => item.country)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.iata)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.iso)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.lon)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.lat)
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+    <div>
+        <a href="#" class="paginate" id="previous">Previous</a> | <a href="#" class="paginate" id="next">Next</a>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<AirportInformations.Repository.Models.Airport>
+@using PagedList
+@using PagedList.Mvc
+
+<h2>Distance Informations</h2>
+@{
+    ViewData["Title"] = "Distance Informations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    var countries = Model
+        .Select(p => p.country)
+        .Distinct().OrderBy(p => p);
+}
+
+
+<div id="airportsDistance">
+    <div class="row">
+        <select class="selected-country-from" id="cbxSource">
+            @foreach (var item in countries)
+            {
+                <option>
+                    @item.ToString()
+                </option>
+            }
+        </select>
+    </div>
+    <br />
+    <div class="row">
+        <select class="selected-country-destination" id="cbxDestination">
+            @foreach (var item in countries)
+            {
+                <option>
+                    @item.ToString()
+                </option>
+            }
+        </select>
+    </div>
+</div>
+
+@section scripts{
+    <script type="text/javascript" src="~/scripts/airport/list.js"></script>
+}

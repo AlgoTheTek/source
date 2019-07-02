@@ -1,0 +1,8 @@
+C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\bin\Debug\netstandard2.0\AirportInformations.Commun.deps.json
+C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\bin\Debug\netstandard2.0\AirportInformations.Commun.dll
+C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\bin\Debug\netstandard2.0\AirportInformations.Commun.pdb
+C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Commun.csproj.CoreCompileInputs.cache
+C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Commun.AssemblyInfoInputs.cache
+C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Commun.AssemblyInfo.cs
+C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Commun.dll
+C:\Users\Roland\source\repos\ConsoleApp1\AirportInformations.Commun\obj\Debug\netstandard2.0\AirportInformations.Commun.pdb

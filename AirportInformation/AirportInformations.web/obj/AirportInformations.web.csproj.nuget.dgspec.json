@@ -1,0 +1,292 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.web\\AirportInformations.web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj",
+        "projectName": "AirportInformations.Common",
+        "projectPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj",
+        "packagesPath": "C:\\Users\\Roland\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Roland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.ConcretService\\AirportInformations.ConcretService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.ConcretService\\AirportInformations.ConcretService.csproj",
+        "projectName": "AirportInformations.ConcretService",
+        "projectPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.ConcretService\\AirportInformations.ConcretService.csproj",
+        "packagesPath": "C:\\Users\\Roland\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.ConcretService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Roland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj": {
+                "projectPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj"
+              },
+              "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Repository\\AirportInformations.Repository.csproj": {
+                "projectPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Repository\\AirportInformations.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Repository\\AirportInformations.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Repository\\AirportInformations.Repository.csproj",
+        "projectName": "AirportInformations.Repository",
+        "projectPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Repository\\AirportInformations.Repository.csproj",
+        "packagesPath": "C:\\Users\\Roland\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Roland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj": {
+                "projectPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "LiteDB": {
+              "target": "Package",
+              "version": "[4.1.4, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.Device.Location.Portable": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.web\\AirportInformations.web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.web\\AirportInformations.web.csproj",
+        "projectName": "AirportInformations.web",
+        "projectPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.web\\AirportInformations.web.csproj",
+        "packagesPath": "C:\\Users\\Roland\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Roland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj": {
+                "projectPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj"
+              },
+              "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.ConcretService\\AirportInformations.ConcretService.csproj": {
+                "projectPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.ConcretService\\AirportInformations.ConcretService.csproj"
+              },
+              "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Repository\\AirportInformations.Repository.csproj": {
+                "projectPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Repository\\AirportInformations.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.jQuery.Unobtrusive.Ajax": {
+              "target": "Package",
+              "version": "[3.2.6, )"
+            },
+            "Mvp.Xml": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "PagedList.Mvc": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Dynamic.Runtime": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

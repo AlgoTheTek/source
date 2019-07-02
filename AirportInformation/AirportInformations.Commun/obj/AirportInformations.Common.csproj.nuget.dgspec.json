@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj",
+        "projectName": "AirportInformations.Common",
+        "projectPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\AirportInformations.Common.csproj",
+        "packagesPath": "C:\\Users\\Roland\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Roland\\Documents\\GitHub\\source\\AirportInformation\\AirportInformations.Commun\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Roland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
